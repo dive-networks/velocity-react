@@ -6,7 +6,10 @@
   "scripts": {
     "compile": "babel src --out-dir .",
     "demo": "webpack-dev-server --progress --colors --content-base demo --hot --inline --config demo/webpack.config.js",
-    "prepare": "npm run compile"
+    "prepare": "npm run compile",
+    "build": " npm run build-umd && npm run build-min",
+    "build-umd": "NODE_ENV=development webpack index.js dist/velocity-react.js",
+    "build-min": "NODE_ENV=production webpack index.js dist/velocity-react.min.js -p"
   },
   "repository": {
     "type": "git",
