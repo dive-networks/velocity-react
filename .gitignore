@@ -10,3 +10,5 @@ yarn.lock
 /velocity-transition-group.js
 /velocity-helpers.js
 /lib
+
+dist
