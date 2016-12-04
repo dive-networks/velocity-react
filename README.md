@@ -13,6 +13,17 @@ See the [live demo](http://google-fabric.github.io/velocity-react/).
 *Note: v1.1.0 and later require React 0.14.x*
 *Note: v1.3.0 and later require React 15.3.x and should work with React 16*
 
+## Building
+
+Run:
+
+```
+$ npm install
+$ npm run build
+```
+
+See the `dist` directory for the compiled files.
+
 ## Running the demo
 
 ```
