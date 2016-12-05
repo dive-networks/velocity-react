@@ -12,8 +12,11 @@
 //   require('velocity');
 //   require('velocity-animate/velocity.ui');
 
-module.exports = {
+components = {
   VelocityComponent: require('./velocity-component'),
   VelocityTransitionGroup: require('./velocity-transition-group'),
   velocityHelpers: require('./velocity-helpers'),
 };
+
+window.VelocityReact = components;
+module.exports = components;
