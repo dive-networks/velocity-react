@@ -44,8 +44,8 @@ var _ = {
   keys: require('lodash/keys'),
   omit: require('lodash/omit'),
 };
-var React = window.React;
-var ReactDOM = window.ReactDOM;
+var React = require('react');
+var ReactDOM = require('react-dom');
 var PropTypes = require('prop-types');
 var Velocity = require('./lib/velocity-animate-shim');
 

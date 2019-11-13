@@ -12,7 +12,7 @@
 //   require('velocity');
 //   require('velocity-animate/velocity.ui');
 
-components = {
+var components = {
   VelocityComponent: require('./velocity-component'),
   VelocityTransitionGroup: require('./velocity-transition-group'),
   velocityHelpers: require('./velocity-helpers'),
